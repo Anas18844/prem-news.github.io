@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #11316a;
+}
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.match-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
+.match-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.match-card h2 {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #000000;
+}
+.match-card p {
+    margin: 3px 0;
+    color: #555;
+}
+.team-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team-info img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 5px;
+}
+.team-name {
+    font-weight: bold;
+}
+.match-details {
+    text-align: center;
+    flex: 1;
+}
+.goalfont {
+    font-weight: bold;
+}
